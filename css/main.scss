@@ -1,0 +1,72 @@
+@mixin respond-to($breakpoint) {
+    @if $breakpoint=="xs" {
+        @media screen and (max-width: 767px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="sm" {
+        @media (min-width: 768px) and (max-width: 991px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="md" {
+        @media (min-width: 992px) and (max-width: 1199px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="lg" {
+        @media screen and (min-width: 1200px) and (max-width: 1399px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="xlg" {
+        @media (min-width: 1400px) and (max-width: 1599px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="xxlg" {
+        @media (min-width: 1600px) and (max-width: 1899px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="xxxlg" {
+        @media (min-width: 1900px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="medium" {
+        @media (min-width: 768px) and (max-width: 1399px) {
+            @content;
+        }
+    }
+}
+
+.container {
+    .gn-menu-main {
+        .gn-trigger {
+            .gn-icon {
+                .gn-menu-wrapper {
+                    background: #3b3b3b !important;
+                    .gn-scroller {
+                        ul {
+                            background: #3b3b3b !important;
+                            li {
+                                a {
+                                    color: #fff !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.intro {
+    .slogan {
+        h1 {
+            text-shadow: black 2px 2px;
+        }
+    }
+}

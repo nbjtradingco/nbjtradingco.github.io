@@ -1,13 +1,14 @@
-
-a,.tp-caption a.btn:hover {
-	color: #eb5d1e;
+a,
+.tp-caption a.btn:hover {
+    color: #eb5d1e;
 }
+
 .top-nav-collapse {
-	background: #eb5d1e;
+    background: #eb5d1e;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
-	color: #eb5d1e;
+    color: #eb5d1e;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
@@ -20,20 +21,21 @@ a,.tp-caption a.btn:hover {
 }
 
 .bg-skin {
-	background: #eb5d1e;
+    background: #eb5d1e;
 }
 
-form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
-	border-color: #eb5d1e;
+form#contact-form input:focus,
+form#contact-form select:focus,
+form#contact-form textarea:focus {
+    border-color: #eb5d1e;
 }
 
 footer {
-    background-color: #eb5d1e;
+    background-color: #3b3b3b;
 }
 
-
 .btn-skin {
-  color: #fff;
-  background-color: #eb5d1e;
-  border-color: #eb5d1e;
+    color: #fff;
+    background-color: #3b3b3b;
+    border-color: #3b3b3b;
 }

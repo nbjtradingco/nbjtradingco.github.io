@@ -457,7 +457,7 @@ input.gn-search:focus {
     transform: translateX(0px);
 }
 
-nav.gn-open-part .gn-scroller .gl-menu ul li a {
+.gn-menu-wrapper.gn-open-part .gl-menu ul li a {
     visibility: hidden;
 }
 
